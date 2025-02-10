@@ -1,12 +1,19 @@
 body{
-    background-color: grey;
-    color: yellow;
+    background-color: black;
 }
 h1{
     color: green;
+    font-family: "Press Start 2P";
 
 }
-p{
-    color: brown;
+#p1{
+    color: white;
+}
 
- }
+#p2{
+    color: white;
+}
+#p3{
+    color: white;
+}
+
