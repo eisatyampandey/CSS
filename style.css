@@ -1,13 +1,39 @@
 body{
-    background-color: black;
+    background: linear-gradient(to right, cyan,blue,red);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-h1{
+
+#hero{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    border: 10px solid grey; /* Border width, style, and color */
+    border-radius: 10px;
+    padding: 20px;
+}
+h1 {
     color: green;
     font-family: "Press Start 2P";
-
+    border: 5px solid;
+    padding: 20px;
+    
 }
+
 #p1{
     color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 30px;
+    font-variant: small-caps;
+    border-style: ridge;
+    padding: 10px;
+    padding-left: 20px;
+    border-width: 5px;
+    border-color: aquamarine;
+    border-radius: 20px;
+    
 }
 
 #p2{
