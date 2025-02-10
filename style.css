@@ -6,7 +6,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: coverq;
    
    
 }
@@ -14,10 +14,12 @@ body{
 #hero{
     display: flex;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    border: 10px solid grey; /* Border width, style, and color */
-    border-radius: 10px;
-    padding: 20px;
+    font-size: 40px;
+    border : 1px solid grey; /* Border width, style, and color */
+    width: 440PX;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1 {
     color: green;
@@ -43,10 +45,31 @@ h1 {
     
 }
 
-#p2{
-    color: white;
+
+#siv{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    width: 50%;
+   
+
 }
-#p3{
-    color: white;
+#siv1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px ridge black;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 30%;
+    padding: 7px;
+    float: left;
 }
 
+#goat{
+    clear: both;
+
+}
