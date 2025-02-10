@@ -1,7 +1,14 @@
 body{
-    background: linear-gradient(to right, cyan,blue,red);
+    /* background: linear-gradient(to right, cyan,blue,red);
     background-attachment: fixed;
+    background-repeat: no-repeat; */
+    background-image: url(./digital-art-fire.jpg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+   
 }
 
 #hero{
