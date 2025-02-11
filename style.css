@@ -26,7 +26,7 @@ body {
 h1 {
     color: green;
     font-family: "Press Start 2P";
-    border: 5px solid;
+    
     padding: 20px;
 
 }
@@ -86,7 +86,7 @@ h1 {
     /* position: relative;
     left: 50px; */
     /* position: sticky; */
-    position: fixed;
+    /* position: fixed\\\; */
     
 }
 
@@ -99,4 +99,77 @@ h1 {
     position: absolute;
     top: 850px;
     left: 700px;
+}
+
+a:link{
+    color: rgb(2, 253, 2);
+}
+a:visited{
+    color: rgb(5, 4, 3);
+}
+a:hover{
+    color: rgb(68, 0, 255);
+}
+
+a:active{
+    color: rgb(8, 255, 160);
+}
+
+
+a{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 4px ridge;
+    border-radius: 20px;    
+    display: flex;
+    justify-content: center;
+   
+}
+
+li:nth-child(even){
+    background-color: darkslateblue;
+    font-size: 36px;
+}
+li:nth-child(odd){
+    background-color: rgb(61, 139, 138);
+    font-size: 26px;
+}
+
+#hi{
+    font-size: 240px;
+    text-align: center;
+    border: 5px solid; 
+    border-radius: 20px;
+    background-color: aqua;
+    width: 700px;
+    margin: auto;
+    /* transform: skew(20deg,20deg); */
+    transform: scale(0.2,0.3);
+     transform: rotate(20deg); 
+   
+}
+
+#anim{
+    font-size: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 4px ridge;
+    border-radius: 20px;  
+    width: 900px;
+    margin-top: 300px;
+    animation: soud;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: easy; 
+    
+
+}
+@keyframes soud {
+
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
 }
